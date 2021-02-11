@@ -1,10 +1,10 @@
-# king berlin / @680068
+# fares / @w7edy
 import requests
 r = requests.session()
 
 count = 0
 print('''
-[!] Follow Me In Instagram : @680068
+[!] Follow Me In Instagram : @w7edy
    _____ _               _               _______       _ _   _            
   / ____| |             | |             |__   __|     (_) | | |           
  | |    | |__   ___  ___| | _____ _ __     | |_      ___| |_| |_ ___ _ __ 
@@ -12,7 +12,7 @@ print('''
  | |____| | | |  __/ (__|   <  __/ |       | |\ V  V /| | |_| |_  __/ |   
   \_____|_| |_|\___|\___|_|\_\___|_|       |_| \_/\_/ |_|\__|\__\___|_|
 
-                        Coded By | @680068
+                        Coded By | @w7edy
                         
 ''')
 file = input('[~] Enter File Name :')
@@ -47,7 +47,7 @@ for file in file:
     if 'error' in req:
         count +=1
         print(f'{count}: {file} '+ ' Available')
-        with open('Available @680068.txt', 'a') as x:
+        with open('Available @w7edy.txt', 'a') as x:
             x.write(file + '\n')
         
     else:
