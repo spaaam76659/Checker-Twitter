@@ -1,3 +1,4 @@
+# king berlin / @680068
 import requests
 r = requests.session()
 
@@ -32,7 +33,7 @@ for file in file:
         'Origin': 'https://tweeterid.com',
         'Referer': 'https://tweeterid.com/',
         'sec-ch-ua': '"Chromium";v="88", "Google Chrome";v="88", ";Not\\A\"Brand";v="99"',
-        'sec-ch-ua-mobile': '?1',
+        'sec-ch-ua-mobile': '?1',#berlin
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin',
@@ -52,5 +53,3 @@ for file in file:
     else:
         count +=1
         print(f'{count}: {file} '+ ' Not Available')
-
-            
